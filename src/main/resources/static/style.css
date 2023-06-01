@@ -1,0 +1,56 @@
+#queue-container {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 10px;
+}
+
+#queue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    border-right: 1px solid black;
+    background-color: #F5F5F5;
+    color: #333333;
+}
+
+#queue span {
+    padding: 4px;
+}
+
+#queue span:not(:last-child) {
+    margin-right: 2px;
+}
+
+button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #4287f5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3271e3;
+}
+
+button:active {
+    background-color: #215bc1;
+}
+
+input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #4287f5;
+    box-shadow: 0 0 5px #4287f5;
+}
