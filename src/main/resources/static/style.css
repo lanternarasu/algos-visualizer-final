@@ -1,0 +1,54 @@
+.container {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  cursor: pointer;
+}
+.image-wrapper {
+  text-align: center;
+}
+
+.image-text {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+#para-text {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.feedback-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logout{
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

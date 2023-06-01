@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frontend Service</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Algorithms visualizer</h1>
+    <div class="image-container">
+      <div class="image-wrapper">
+        <img src="queue.jpg" alt="Queue" onclick="startQueueVisualizer()">
+        <div class="image-text">Queue</div>
+      </div>
+      <div class="image-wrapper">
+        <img src="stack.jpg" alt="Stack" onclick="startStackVisualizer()">
+        <div class="image-text">Stack</div>
+      </div>
+      <div class="image-wrapper">
+        <img src="sorting.jpg" alt="Sorting" onclick="startSortingVisualizer()">
+        <div class="image-text">Sorting</div>
+      </div>
+    </div>
+    <p id="para-text">Our algorithm visualization web app provides an interactive and educational tool for understanding sorting algorithms. Users can observe the step-by-step execution of algorithms like Bubble Sort, Quick Sort, and Heap Sort through visual representations. By generating random or default arrays, users can track the progress of sorting and gain insights into algorithm efficiency and effectiveness. This hands-on learning experience deepens understanding and enhances comprehension of these fundamental algorithms.</p>
+        <button class="feedback-button" onclick="feedback()">Feedback</button>
+        <button class="logout" onclick="logout()">Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
